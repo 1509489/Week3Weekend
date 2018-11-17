@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Week3Weekend</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="pdfviewer">PDF Viewer</string>
+    <string name="login">Login</string>
+    <string name="example_example_com">example@example.com</string>
+    <string name="custom_dialog">Custom Dialog</string>
+    <string name="message">This activity was lauched by the foreground notification</string>
+
+    <string-array name="multi_choices">
+        <item>Multi 1</item>
+        <item>Multi 2</item>
+        <item>Multi 3</item>
+        <item>Multi 4</item>
+        <item>Multi 5</item>
+    </string-array>
+
+    <string-array name="single_choices">
+        <item>Single 1</item>
+        <item>Single 2</item>
+        <item>Single 3</item>
+        <item>Single 4</item>
+        <item>Single 5</item>
+    </string-array>
+</resources>
