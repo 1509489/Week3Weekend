@@ -8,6 +8,8 @@
     <string name="example_example_com">example@example.com</string>
     <string name="custom_dialog">Custom Dialog</string>
     <string name="message">This activity was lauched by the foreground notification</string>
+    <string name="counter_activity">Counter Activity</string>
+    <string name="notification_activity">Notification Activity</string>
 
     <string-array name="multi_choices">
         <item>Multi 1</item>

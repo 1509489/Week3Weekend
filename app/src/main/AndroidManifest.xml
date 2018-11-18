@@ -36,12 +36,16 @@
         </activity>
 
         <service
-                android:name=".NotificationService"
+                android:name=".ServicesAndReceivers.NotificationService"
                 android:enabled="true"
                 android:exported="false">
         </service>
 
-        <activity android:name=".NotificationActivity">
+        <activity android:name=".NotificationActivity"
+        android:label="@string/notification_activity">
+        </activity>
+        <activity android:name=".FragmentsActivity"
+        android:label="@string/counter_activity">
         </activity>
     </application>
 

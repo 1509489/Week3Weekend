@@ -6,7 +6,6 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.Telephony
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AlertDialog
@@ -14,6 +13,7 @@ import android.telephony.SmsManager
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.Toast
+import com.pixelart.week3weekend.ServicesAndReceivers.NotificationService
 import kotlinx.android.synthetic.main.custom_dialog_layout.view.*
 import kotlinx.android.synthetic.main.sendtext_layout.view.*
 
@@ -112,6 +112,10 @@ class MainActivity : AppCompatActivity() {
                        dialog.dismiss()
                    }
                    .show()
+           }
+
+           R.id.btnCounter ->{
+               startActivity(Intent(this, FragmentsActivity::class.java))
            }
        }
    }

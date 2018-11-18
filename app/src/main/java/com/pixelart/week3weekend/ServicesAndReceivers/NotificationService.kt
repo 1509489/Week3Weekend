@@ -1,4 +1,4 @@
-package com.pixelart.week3weekend
+package com.pixelart.week3weekend.ServicesAndReceivers
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -9,6 +9,8 @@ import android.os.Build
 import android.os.IBinder
 import android.support.v4.app.NotificationCompat
 import android.util.Log
+import com.pixelart.week3weekend.NotificationActivity
+import com.pixelart.week3weekend.R
 
 class NotificationService : Service() {
     private val TAG = "NotificationService"
